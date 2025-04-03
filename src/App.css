@@ -62,7 +62,6 @@
     font-size: 1.3rem;
     width: 100%;
     text-wrap: wrap;
-    /* border: 1px solid black ; */
 }
 .correct {
     background-color: #28a745;
@@ -76,7 +75,6 @@
 }
 .prefix {
     font-weight: bold;
-    /* font-size: 1.3rem; */
 }
 .final-score {
     font-size: 1.5rem;
@@ -100,7 +98,6 @@
     text-wrap: wrap;
 }
 .review-item p {
-    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 1.2rem;
 }
 @media screen and (max-width: 768px) {
@@ -115,16 +112,20 @@
     .choice-container {
         max-width: 100%;
     }
+   
 }
 @media screen and (max-width: 480px) {
     .choice-prefix {
         padding: 15px;
+       
     }
     
     .choice-text {
         font-size: 1rem;
-    }
-    
+      text-align: justify;
+      padding: 0 5px 0 5px;
+      text-wrap: wrap;
+    }  
     .Headup-Num {
         font-size: 1.5rem;
     }

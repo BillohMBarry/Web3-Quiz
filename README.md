@@ -48,6 +48,11 @@ Recipe-Finder/
 ├── eslint.config.js    # ESLint configuration
 └── README.md
 ```
+## Screeenshots
+
+![Screenshot 2025-04-03 at 7 07 29 pm](https://github.com/BillohMBarry/Web3-Quiz/blob/main/src/assets/Screenshot%202025-04-03%20190448.png)
+
+
 ## Contribution
 ```
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
