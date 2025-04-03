@@ -103,8 +103,29 @@
     /* font-family: 'Courier New', Courier, monospace; */
     font-size: 1.2rem;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
     .container {
-        max-width: 40rem;
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+    .Head-Display {
+        flex-direction: column;
+    }
+    
+    .choice-container {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .choice-prefix {
+        padding: 15px;
+    }
+    
+    .choice-text {
+        font-size: 1rem;
+    }
+    
+    .Headup-Num {
+        font-size: 1.5rem;
     }
 }
